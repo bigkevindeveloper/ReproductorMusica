@@ -1,0 +1,71 @@
+header{
+	min-height: 10vh;
+	margin:0px;
+	background-color: black;
+	color: rgba(0, 0, 0, 0.8);
+	-webkit-box-shadow: -2px 10px 45px 2px rgba(138,138,138,1);
+-moz-box-shadow: -2px 10px 45px 2px rgba(138,138,138,1);
+box-shadow: -2px 10px 45px 2px rgba(138,138,138,1);
+}
+footer{
+	height: 10vh;
+	background-color: #000000;
+}
+.main{
+	padding: 0px;
+}
+.font-titulo{
+	font-family: 'Kumar One Outline', cursive;
+	color: red;
+	margin-top: 2vh;
+	margin-bottom: 0px;
+}
+.font-footer{
+	font-family: 'Alfa Slab One', cursive;
+}
+.buscador{
+	min-width: 80%;
+}
+.contenedor{
+	min-height: 80vh;
+	background-color: #F8F9F9;
+}
+.reproductor{
+	margin: 4vh;
+	height: 60vh;
+	background-color: black;
+	background: no-repeat;
+	background-size: 100% 100%;
+	-webkit-box-shadow: 10px 10px 45px 0px rgba(255,28,28,1);
+	-moz-box-shadow: 10px 10px 45px 0px rgba(255,28,28,1);
+	box-shadow: 10px 10px 45px 0px rgba(255,28,28,1);
+}
+.reproductor-control{
+	width: 100%;
+	height: 100%;
+}
+.itexm{
+	height: 10vh;
+	background: white;
+	border: 1px solid #000000;
+	margin:4vh;
+}
+.blanco{
+	color: #ffffff;
+}
+.footer-text{
+	padding-top: 3vh;
+}
+.itemTitulo{
+	font-size: 1em;
+
+}
+.col-list{
+	margin-top: 4vh;
+	margin-bottom: 5vh;
+	height: 60vh;
+	overflow:auto;
+    background-color: gainsboro;
+	padding-right: 10px;
+
+}

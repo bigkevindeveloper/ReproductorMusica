@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>I-TUBE</title>
+	<link href="https://fonts.googleapis.com/css?family=Kumar+One+Outline" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
+	<link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<div class="container-fluid">
+		<header class="row">
+			<div class="col-md-2 my-auto">
+				<h2 class="d-flex justify-content-center font-titulo">K-TUBE</h2>
+			</div>
+			<!-- INPUT Y BOTON DE BUSQUEDA -->
+			<div class="col-md-6 my-auto">
+				<div class="input-group mb-3 my-auto">
+				  <input id="campoBusqueda" type="text" class="form-control" placeholder="Buscar" aria-label="Recipient's username" aria-describedby="basic-addon2">
+				  <div class="input-group-append">
+				    <button onclick="search()" class="btn btn-outline-secondary" type="button">Buscar</button>
+				  </div>
+				</div>
+			</div>
+		</header>
+
+		<!-- Contenedor -->
+
+		<div class="row contenedor">
+			<div class="col-md-8">
+				<div class="reproductor" id="contenedor cover" ondrop="drop(event)" ondragover="allowDrop(event)" style="
+    background-color: black;
+">
+				</div>
+			</div>
+
+			<!-- Listado de busquedas -->
+			<div class="col-md-4 col-list">
+				<div class="list">
+					<!-- Aqui se cargaran los distintos items con las busquedas que realizemos
+					seran objetos arrastrables hasta el reprodcutor -->
+					
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="my-auto">
+			<p class="text-center footer-text blanco font-footer">KSDESIGN:Diseñado por kevin rivera</p>
+	</footer>
+	
+
+	<!-- Implementacion de librerias (jquery-bootstrap) -->
+	<script src="vendor/jquery/dist/jquery.js"></script>
+	<script src="vendor/bootstrap/dist/js/bootstrap.js"></script>
+	<!-- Libreria de soundCloud -->
+	<script src="https://connect.soundcloud.com/sdk/sdk-3.0.0.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
